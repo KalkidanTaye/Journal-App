@@ -63,7 +63,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To deploy, first run the build task then deploy the build folder.
+
+`yarn run build`
+`netlify delpoy --prod` (build folder)
+
 
 ### `yarn build` fails to minify
 
